@@ -19,7 +19,7 @@ Enjoy.
 ## USAGE
 
 * request, download and unpack your Mastodon archive
-* execute `./archive2html.py PATH_TO_ARCHIVE` in a terminal, see available options below
+* execute `archive2html.py PATH_TO_ARCHIVE` in a terminal, see available options below
 * the output file is saved as `outbox.html` in the archive folder
 
 ## OPTIONS
@@ -47,14 +47,14 @@ options:
   * replied profiles
   * replies to profiles that are no longer available (profiles may be deleted or moved, or are muted/suspended or on muted/suspended instances on your instance)
   * broken conversations (original post of the reply is probably deleted, some users auto-delete old posts so this may probably be a common phenomenon).
-   * publishing year
-   * hashtags
-   * likes
-   * media attachments
+  * publishing year
+  * hashtags
+  * likes
+  * media attachments
 
 * the script asks you if you want to check the availability of profiles with the most interactions; this process may take a while as the lookup will be executed just then
 
-* executing the script with the `-s` option doesn't generate any output file
+* executing the script running this `-s` option will not generate any output file
 
 ### -o
 
@@ -68,9 +68,9 @@ options:
 * is set to *True* by default, use this option to suppress links to boosted posts
 
 ## PAGE RESULT
-* posts are duped into a single page starting with the oldest divided by a horizontal line
+* posts are dumped into a single page starting with the oldest divided by a horizontal line
 * images and videos are set to a width of 600px
 * the background color of media descriptions is "lightblue"
 * the background color of links is "lightgreen"
 * CWs are ignored, content is displayed just normally
-
+* an existing output page will be overwritten
