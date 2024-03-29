@@ -25,7 +25,7 @@ Enjoy.
 ## OPTIONS
 ```bash
 $ ./archive2html.py -h
-usage: mastoarchive2html [-h] [-s] [-o] [-nb] path
+usage: archive2html.py [-h] [-s] [-o] [-nb] path
 
 convert Mastodon archive to simple HTML file
 
