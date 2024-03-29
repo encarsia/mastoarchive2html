@@ -384,7 +384,7 @@ def generate_HTML(tl, src, boost):
 
 # CLI options
 parser = argparse.ArgumentParser(
-                    prog="mastoarchive2html",
+                    prog="archive2html.py",
                     description="convert Mastodon archive to simple HTML file",
                     )
 parser.add_argument("path",
