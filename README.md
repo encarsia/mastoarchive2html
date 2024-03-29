@@ -8,9 +8,9 @@ The output is a single HTML page with very little formatting.
 
 ## IMPORTANT
 
-This is a simplification of my [Mastodon import plugin](https://github.com/encarsia/mastodon_nikola_import) for the Static Site Generator Nikola. 
+This is a simplification of my [Mastodon import plugin](https://github.com/encarsia/import_mastodon) for the Static Site Generator [Nikola](https://getnikola.com). 
 
-You should not publish the results as the page doesn't differentiate between public and private posts and was basically written as a community request.
+You should not publish the results as the page doesn't differentiate between public and private posts and was just written due a community request.
 
 If you intend to publish archived posts I recommend the import plugin mentioned above. The results are much more neat and customizable.
 
