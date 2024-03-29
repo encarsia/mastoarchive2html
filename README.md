@@ -71,6 +71,6 @@ options:
 * posts are dumped into a single page starting with the oldest divided by a horizontal line
 * images and videos are set to a width of 600px
 * the background color of media descriptions is "lightblue"
-* the background color of links is "lightgreen"
+* the background color of boosts is "lightgreen"
 * CWs are ignored, content is displayed just normally
-* an existing output page will be overwritten
+* existing output pages will be overwritten
